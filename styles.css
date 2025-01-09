@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: sans-serif;
+    scroll-behavior: smooth; 
+    background-color: #000000; 
+}
+
+.me {
+    height: 100vh;
+    width: 100%;
+    background: #000000; 
+    position: relative;
+}
+
+nav {
+    width: 84%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+    color: rgb(251, 88, 0);
+}
+
+.info {
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.info h1 {
+    font-size: 70px;
+    color: aliceblue;
+    margin-bottom: 25px;
+    margin-left: 1%;
+}
+
+span {
+    color: coral;
+}
+
+.info p {
+    color: coral;
+    line-height: 30px;
+    margin-bottom: 55px;
+    margin-left: 1%;
+}
+
+.info a {
+    background: #ffffff;
+    padding: 9px 19px;
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    margin-left: 1%;
+}
+
+.info a:hover{
+    color: rgb(159, 82, 44);
+}
+
+
+.img-box {
+    width: 35%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+}
+
+.img-box img {
+    height: 95%;
+    position: absolute;
+    left: 55%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.img-box:hover .back-img {
+    bottom: 100px;
+}
+
+.img-box:hover .main-img {
+    left: 65%;
+}
+
+.social-links {
+    margin-left: 6%;
+    margin-top: 0px;
+}
+
+.social-links a {
+    font-size: 30px;
+    color: coral;
+    margin-right: 20px;
+}
+
+.social-links a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.section1{
+    height: 60vh;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    background-color: #000000; 
+}
+
+.section2{
+    height: 100vh;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    background-color: #000000; 
+}
+
+
+.section4{
+    height: 100vh;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    background-color: #000000; 
+}
+
+#about {
+    background-color: #000000; 
+}
+
+#projects {
+    background-color: #000000; 
+}
+
+#education {
+    background-color: #000000; 
+}
+
+#skills {
+    background-color: #000000;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: coral;
+}
+
+p {
+    font-size: 20px;
+    color: #fff; 
+    line-height: 35px;
+    margin: 30px 100px 30px 100px;
+
+}
+
+.section1 a {
+    background: #ffffff;
+    padding: 9px 19px;
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.section1 a:hover{
+    color: rgb(159, 82, 44);
+}
+
+.bx {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+.proj {
+    background-color:  rgb(37, 35, 35 );
+    border-radius: 10px;
+    border: 2px solid coral;
+    color: coral;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s;
+    margin: 20px;
+}
+.proj img {
+    width: 100%;
+    height: auto;
+}
+.proj:hover {
+    transform: translateY(-20px);
+}
+.proj h3 {
+    font-size: 1.5rem;
+    margin: 16px;
+}
+.proj p {
+    font-size: 1rem;
+    margin: 16px;
+    color: #d6cccc;
+}
+
+.section4 {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section {
+    padding: 20px;
+    text-align: center; 
+}
+
+.skills {
+    display: inline-block; 
+    width: 60%; 
+    text-align: left; 
+}
+
+.skill-item {
+    margin-bottom: 20px;
+}
+
+.skill-bar {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    height: 25px;
+    width: 100%;
+}
+
+.skill-bar-inner {
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
